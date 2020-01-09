@@ -17,3 +17,7 @@ galera                   x86_64  25.3.28-1.rhel7.el7.centos     mariadb  8.0 M
 They can be found here:
 http://mariadb.mirror.iweb.com//mariadb-10.3.21/yum/centos7-amd64/rpms/
 ```
+## Block firewall to simulate non-primary (drop out of cluster) 
+```
+for i in 3306 4567 4568 4444; do iptables -A INPUT -p tcp --destination-port $i -j DROP; iptables -A OUTPUT -p tcp --destination-port $i -j DROP; done
+```
