@@ -28,3 +28,6 @@ https://severalnines.com/database-blog/monitoring-galera-cluster-mysql-or-mariad
 
 ## MaxScale 
 https://mariadb.com/projects-using-bsl-11/
+
+## Download MaxScale binary 
+https://mariadb.com/downloads/#mariadb_platform-mariadb_maxscale
