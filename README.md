@@ -36,5 +36,8 @@ https://mariadb.com/downloads/#mariadb_platform-mariadb_maxscale
 
 ### Monitor (Health Checks) for Galera 
 
+parameters for all monitors:
+https://mariadb.com/kb/en/mariadb-maxscale-24-common-monitor-parameters/
+specifically galera:
 https://mariadb.com/kb/en/mariadb-maxscale-24-galera-monitor/
 
