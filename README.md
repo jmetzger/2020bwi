@@ -31,3 +31,10 @@ https://mariadb.com/projects-using-bsl-11/
 
 ## Download MaxScale binary 
 https://mariadb.com/downloads/#mariadb_platform-mariadb_maxscale
+
+## MaxScale 
+
+### Monitor (Health Checks) for Galera 
+
+https://mariadb.com/kb/en/mariadb-maxscale-24-galera-monitor/
+
