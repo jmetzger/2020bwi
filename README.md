@@ -55,3 +55,6 @@ socket=default
 set server galera3 maintenance
 clear server galera3 maintenance
 
+### Connect through maxscale to cluster 
+mysql -uroot -p -h 127.0.0.1 -P 3307
+
