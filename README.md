@@ -40,4 +40,12 @@ parameters for all monitors:
 https://mariadb.com/kb/en/mariadb-maxscale-24-common-monitor-parameters/
 specifically galera:
 https://mariadb.com/kb/en/mariadb-maxscale-24-galera-monitor/
-
+best option is to use cli with socket not with port 
+https://mariadb.com/kb/en/mariadb-maxscale-24-cli/
+```
+[CLI-Unix-Listener]
+type=listener
+service=CLI
+protocol=maxscaled
+socket=default
+```
