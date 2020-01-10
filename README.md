@@ -25,3 +25,6 @@ iptables -L
 
 ## Metrics Performance 
 https://severalnines.com/database-blog/monitoring-galera-cluster-mysql-or-mariadb-understanding-metrics-updated
+
+## MaxScale 
+https://mariadb.com/projects-using-bsl-11/
