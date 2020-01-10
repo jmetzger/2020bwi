@@ -58,3 +58,34 @@ clear server galera3 maintenance
 ### Connect through maxscale to cluster 
 mysql -uroot -p -h 127.0.0.1 -P 3307
 
+### Create user on galera - node 
+```
+CREATE USER 'training'@'%' IDENTIFIED BY 'password';
+
+```
+
+## Sudo list ## 
+
+```
+lsof -i 
+top 
+sestatus 
+pkill -9 mysqld 
+yum autoremove MariaDB-* 
+yum install maxscale 
+# journalctl -u mariadb 
+# systemctl start mariadb 
+# systemctl stop mariadb 
+# systemctl status mariadb 
+ä systemctl start maxscale 
+# systemctl stop maxscale 
+# systemctl status maxscale 
+
+
+iptables -L 
+
+# evtl.
+galera_new_cluster 
+```
+
+``` 
