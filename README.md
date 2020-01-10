@@ -49,4 +49,9 @@ service=CLI
 protocol=maxscaled
 socket=default
 ```
- 
+
+### MaxScale - set / clear server for maintenance 
+
+set server galera3 maintenance
+clear server galera3 maintenance
+
